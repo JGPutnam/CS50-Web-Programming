@@ -31,7 +31,6 @@ form {
     color:white;
     background-color: #4d90fe;
     float: left;
-    margin-left: 8%;
     height: 30px;
     padding: 0 12px;
     box-shadow: none;
@@ -42,6 +41,7 @@ form {
 }
 #left {
     float: left;
+    width: 100%;
 }
 .flex-container {
     display: flex;
