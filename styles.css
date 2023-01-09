@@ -1,3 +1,6 @@
+body {
+    font-family: arial, sans-serif;
+}
 a {
     text-decoration: none;
     float: right;
@@ -13,18 +16,36 @@ form {
     margin-left: 20%;
     margin-right: 20%;
 }
+#searchbutton {
+    background-color: #f8f9fa;
+    color: #3c4043;
+    font-size: 14px;
+    height: 36px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    min-width: 54px;
+}
 #AGS {
     color:white;
-    background-color: blue;
+    background-color: #4d90fe;
     float: left;
+    height: 30px;
+    padding: 0 12px;
+    box-shadow: none;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    font-size: 11px;
+    font-weight: bold;
 }
 #left {
     float: left;
 }
 #round {
-    -moz-border-radius: 15px;
     border-radius: 15px;
     border:solid 1px rgb(138, 134, 134);
     padding:5px;
     margin-bottom: 5px;
+    width: fit-content;
 }
