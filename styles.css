@@ -16,4 +16,15 @@ form {
 #AGS {
     color:white;
     background-color: blue;
+    float: left;
+}
+#left {
+    float: left;
+}
+#round {
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border:solid 1px rgb(138, 134, 134);
+    padding:5px;
+    margin-bottom: 5px;
 }
